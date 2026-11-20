@@ -1,0 +1,16 @@
+/* 初印 · 判废 */
+:root {
+  color-scheme: light;
+  --bg: #edf0fa; --rail: #e1e5f0; --accent: #6843a6; --ink: #272147;
+  --panel: color-mix(in srgb, var(--bg) 91%, white);
+  --line: color-mix(in srgb, var(--ink) 24%, var(--bg));
+  --mute: color-mix(in srgb, var(--ink) 78%, var(--bg));
+  --th: color-mix(in srgb, var(--panel) 84%, var(--accent));
+  --rail-ink: var(--ink);
+  --primary: #fff;
+  --bad: #832635;
+  --ui: Courier New, monospace; --mono: ui-monospace, Menlo, monospace;
+  --pad: 19px; --row: 39px; --gap: 16px;
+  --figure: 26px; --title: 42px; --graph: 48px;
+  --scroll: 369px;
+}
